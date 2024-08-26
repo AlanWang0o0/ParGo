@@ -12,9 +12,10 @@ pip install torch==2.0.1+cu118 torchvision==0.15.2+cu118 torchaudio==2.0.2 --ind
 pip install -r ./requirements.txt
 ```
 ## Download Models
-The LLM(internlm2-7b) and vision_encoder (eva-clip-l-14-336) need to be downloaded in advance. 
+The LLM(internlm2-7b) and vision_encoder(eva-clip-l-14-336) need to be downloaded in advance. 
 ## Evaluation
 ### MME Benchmark
+#### Data
 You can place the benchmark data in the benchmark directory. Data structure:
 ```
 ├── benchmarks
